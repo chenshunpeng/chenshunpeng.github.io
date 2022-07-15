@@ -1,11 +1,11 @@
 ---
-title: Sample Post - Markdown Syntax
+title: happy1
 commentable: true
 Edit: 2022-7-15
 mathjax: true
 mermaid: true
-tags: tag1 tag2 tag3
-categories: sample post
+tags: t1 t2 t3
+categories: happy2
 description: This is a sample post testing 
 ---
 
