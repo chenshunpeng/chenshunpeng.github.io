@@ -1,23 +1,16 @@
 ---
-title: About
+title: 一些信息
 layout: info
-Edit: 2018-11-14
+Edit: 2022-7-15
 toc: false
 commentable: false
 protected: true
 mathjax: true
 ---
 
-# Me
+# 文章
 
-
-
-# This Site
-
-
-# Posts
-
-The posts are at different status.
+这些不同的文章可能处于不同的状态
 
 | Status    | Meaning                                                      |
 | --------- | ------------------------------------------------------------ |
@@ -26,9 +19,9 @@ The posts are at different status.
 | Paused    | This post is considered of low priority. I will come back to this post later. |
 | Archived  | This post is outdated and I probably won't update it anymore. |
 
-# Sources
+# 来源
 
-This website uses these sources:
+本网站使用以下来源：
 
 | Module                                                       | Mainly used in                                  | License/ TOS                                                 |
 | ------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------------------ |
@@ -46,22 +39,13 @@ This website uses these sources:
 | [404 T-rex game](https://github.com/wayou/t-rex-runner)      | 404 page                                        | from [Chromium source code](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package), [license](https://chromium.googlesource.com/chromium/src.git/+/master/LICENSE) |
 | [Encryption](https://github.com/robinmoisson/staticrypt)     | Secret Pages                                    | [MIT](http://opensource.org/licenses/MIT)                    |
 
-Additional licensing information can be found YOUR WEBSITE LINK.
+其他许可信息也可在网站链接中找到
 
-# The Name
+# 名字
 
-I named this website "A Finger Pointing to the Moon", as in the Buddhism story:
+我把这个网站命名为 “静待花开” ，因为努力的结果不会一瞬间就显现出来，这是一个积累的过程
 
-> **佛告阿难。汝等尚以缘心听法。此法亦缘。非得法性。**
->
-> **若复观指以为月体。此人岂唯亡失月轮。亦亡其指。何以故。以所标指为明月故。**
->
-> **岂唯亡指。亦复不识明之与暗。何以故。即以指体。为月明性。明暗二性。无所了故。**
 
-Which has been beautifully put by Bruce Lee:
+# 联系
 
->It's like a finger pointing away to the moon. Don't concentrate on the finger or you will all that heavenly glory.
-
-# Contact
-
-The best way to reach me is via email: $namer$ @ $web.com$
+可以通过csdn留言与我联系：[csp_](https://blog.csdn.net/qq_45550375)
