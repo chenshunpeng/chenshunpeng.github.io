@@ -4,19 +4,19 @@ layout: home
 <div class="user-details">
 <h2> 我和这个网站 </h2>
 <p style="text-align: justify;"> 
-	&nbsp;&nbsp;&nbsp;&nbsp;石家庄铁道大学大三本科生，你可以在 
+	&nbsp;&nbsp;&nbsp;&nbsp;石家庄铁道大学大三本科生，计算机科学与技术专业，你可以在 
 	<a href="https://github.com/chenshunpeng/chenshunpeng.github.io">here</a>
-	看到这个网站的源码，（当然，这个网站架构借鉴自一个博士生），我希望通过这个网站分享我的学习生活，
+	看到我这个网站的源码（当然，这个网站架构借鉴自一个博士生），我希望通过这个网站分享我的学习生活，
 	欢迎你提出任何建议，亦或是发表评论。
 </p>
-<div class="analytics"  style="border: solid lightgrey; border-radius: 5px;">
+<!-- <div class="analytics"  style="border: solid lightgrey; border-radius: 5px;">
 	<h3> Analytics </h3>
 	{% include clustrmap.html style="js" %}
 	<p> <small> If you are not seeing a map, please disable Ad block </small></p>
-</div>
+</div> -->
 </div>
 <div class="permlinks">
-<h2>Recent Posts</h2>
+<h2>最新文章</h2>
 <dl>
 	{% for post in site.posts limit:3 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i><a href="{{ post.url }}">{{ post.title }}</a> &nbsp;{% include status-indicator.html status=post.status%}
