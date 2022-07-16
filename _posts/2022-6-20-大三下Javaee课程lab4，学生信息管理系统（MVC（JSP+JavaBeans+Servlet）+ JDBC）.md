@@ -1,7 +1,7 @@
 ﻿---
 title: 大三下Javaee课程lab4，学生信息管理系统（MVC（JSP+JavaBeans+Servlet）+ JDBC）
 commentable: true
-Edit: 2022-6-20
+Edit: 2022-06-20
 mathjax: true
 mermaid: true
 tags: Javaee MVC JDBC
