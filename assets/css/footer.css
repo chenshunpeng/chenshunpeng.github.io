@@ -19,5 +19,5 @@ body {
 	display: flex;
 	flex-flow: column;
 	min-height: 100vh;
-   }
-   div { flex: 1; }
+}
+div { flex: 1; }
