@@ -1,7 +1,7 @@
 ﻿---
 title: Premiere如何入门做视频
 commentable: true
-Edit: 2021-04-16
+Edit: 2021-12-25
 mathjax: true
 mermaid: true
 tags: Premiere
