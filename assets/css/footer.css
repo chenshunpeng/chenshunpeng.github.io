@@ -15,3 +15,9 @@ footer a {
 	color: #42b983;
 	font-weight: 600;
 }
+body {
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+   }
+   div { flex: 1; }
