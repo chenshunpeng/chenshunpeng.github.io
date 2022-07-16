@@ -32,7 +32,7 @@ body {
 .wrap {
   position: relative;
   width: 90%;
-	margin-left:auto;
+	margin-left:-85px;
 	margin-right: auto;
 }
 
@@ -91,7 +91,7 @@ body {
   top: 0;
   bottom: 0;
   left: -17rem;
-  width: 17rem;
+  width: 9rem;
   visibility: hidden;
   overflow-y: auto;
   font-size: .875rem; /* 15px */
@@ -154,7 +154,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle {
   position: absolute;
   top:  1rem;
-  left: 1rem;
+  left: -7rem;
   display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
