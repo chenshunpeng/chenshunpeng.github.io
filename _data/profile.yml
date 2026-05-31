@@ -1,0 +1,33 @@
+name: "Shunpeng Chen"
+position: "Ph.D. Student"
+affiliation: "School of Artificial Intelligence, Beijing University of Posts and Telecommunications (BUPT)"
+email: "shunpengchen@bupt.edu.cn"
+location: "Beijing, China"
+avatar: "https://avatars.githubusercontent.com/u/73421625?v=4"
+
+affiliations:
+  - name: "School of Artificial Intelligence"
+    url: "https://ai.bupt.edu.cn/"
+  - name: "Beijing University of Posts and Telecommunications (BUPT)"
+    url: "https://www.bupt.edu.cn/"
+    short_link_label: "BUPT"
+
+summary: >-
+  I am a Ph.D. student at Beijing University of Posts and Telecommunications (BUPT).
+  My research focuses on Visual Place Recognition, Visual Localization,
+  Multimodal Learning, and Embodied AI. I am particularly interested in building
+  robust and efficient perception systems that enable intelligent agents to
+  understand and navigate complex real-world environments.
+
+research_interests:
+  - Visual Place Recognition
+  - Visual Localization
+  - Multimodal Learning
+  - Image Retrieval
+  - Embodied AI
+
+links:
+  github: "https://github.com/chenshunpeng"
+  google_scholar: "https://scholar.google.com/citations?user=azDgUMUAAAAJ&hl=zh-CN"
+  dblp: "https://dblp.org/pid/367/5431.html"
+  orcid: "https://orcid.org/0009-0004-1675-957X"

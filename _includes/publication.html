@@ -1,0 +1,31 @@
+<article class="publication{% if include.publication.selected %} publication-selected{% endif %}">
+  <h3>
+    {% if include.publication.paper and include.publication.paper != "TODO" %}
+      <a href="{{ include.publication.paper }}" target="_blank" rel="noopener">{{ include.publication.title }}</a>
+    {% else %}
+      {{ include.publication.title }}
+    {% endif %}
+  </h3>
+  <p class="publication-authors">{{ include.publication.authors_html }}</p>
+  <p class="publication-meta">
+    <span class="venue-text">{{ include.publication.venue }} {{ include.publication.year }}</span>
+    {% if include.publication.ccf and include.publication.ccf != "TODO" %}
+      <span class="ccf-badge">{{ include.publication.ccf }}</span>
+    {% endif %}
+    {% if include.publication.project and include.publication.project != "TODO" %}
+      {% unless include.publication.project contains "github.com" %}
+        <span class="meta-separator">|</span>
+        <a class="inline-link" href="{{ include.publication.project }}" target="_blank" rel="noopener">Project</a>
+      {% endunless %}
+    {% endif %}
+    {% if include.publication.github and include.publication.github != "TODO" %}
+      <span class="meta-separator">|</span>
+      <a class="inline-icon-link" href="{{ include.publication.github }}" target="_blank" rel="noopener" aria-label="GitHub repository for {{ include.publication.title }}">
+        <svg aria-hidden="true" viewBox="0 0 16 16" width="13" height="13" focusable="false">
+          <path d="M8 0.2a8 8 0 0 0-2.53 15.59c0.4 0.07 0.55-0.17 0.55-0.39v-1.36c-2.23 0.49-2.7-1.08-2.7-1.08-0.36-0.93-0.89-1.18-0.89-1.18-0.73-0.5 0.05-0.49 0.05-0.49 0.81 0.06 1.24 0.83 1.24 0.83 0.72 1.23 1.89 0.88 2.35 0.67 0.07-0.52 0.28-0.88 0.51-1.08-1.78-0.2-3.65-0.89-3.65-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82a7.6 7.6 0 0 1 4 0c1.53-1.03 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.28 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48v2.19c0 0.22 0.15 0.46 0.55 0.38A8 8 0 0 0 8 0.2Z"/>
+        </svg>
+        <span>GitHub</span>
+      </a>
+    {% endif %}
+  </p>
+</article>

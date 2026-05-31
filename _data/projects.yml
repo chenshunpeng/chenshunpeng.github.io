@@ -1,0 +1,35 @@
+- title: "SAGE"
+  subtitle: "Spatial-visual Adaptive Graph Exploration for Visual Place Recognition"
+  description: >-
+    Research code for efficient visual place recognition with adaptive graph
+    exploration, released with the ICLR 2026 paper.
+  github: "https://github.com/chenshunpeng/SAGE"
+  paper: "https://openreview.net/forum?id=DCpbEXqPvS"
+  tags:
+    - Visual Place Recognition
+    - Graph Exploration
+    - ICLR 2026
+
+- title: "FoL"
+  subtitle: "Focus on Local"
+  description: >-
+    Official code and models for finding reliable discriminative regions for
+    visual place recognition.
+  github: "https://github.com/chenshunpeng/FoL"
+  paper: "https://ojs.aaai.org/index.php/AAAI/article/view/32811"
+  tags:
+    - Visual Place Recognition
+    - Local Regions
+    - AAAI 2025
+
+- title: "MF-RV"
+  subtitle: "Multimodal Fusion and Vision-Language Models for Robot Vision"
+  description: >-
+    Curated survey repository tracking multimodal fusion and vision-language
+    model research for robot vision.
+  github: "https://github.com/Xiaofeng-Han-Res/MF-RV"
+  paper: "https://arxiv.org/abs/2504.02477"
+  tags:
+    - Robot Vision
+    - Vision-Language Models
+    - Information Fusion

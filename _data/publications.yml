@@ -1,0 +1,41 @@
+- title: "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition"
+  authors_html: "<strong>Shunpeng Chen</strong>, Changwei Wang, Rongtao Xu, Xingtian Pei, Yukun Song, Jinzhou Lin, Wenhao Xu, Jingyi Zhang, Li Guo, Shibiao Xu"
+  venue: "ICLR"
+  year: 2026
+  ccf: "CCF-A"
+  status: "Conference paper"
+  selected: true
+  paper: "https://openreview.net/forum?id=DCpbEXqPvS"
+  github: "https://github.com/chenshunpeng/SAGE"
+  project: "https://iclr.cc/virtual/2026/poster/10010801"
+
+- title: "Multimodal fusion and vision-language models: A survey for robot vision"
+  authors_html: "Xiaofeng Han, <strong>Shunpeng Chen</strong>, Zenghuang Fu, Zhe Feng, Lue Fan, Dong An, Changwei Wang, Li Guo, Weiliang Meng, Xiaopeng Zhang, Rongtao Xu, Shibiao Xu"
+  venue: "Information Fusion"
+  year: 2026
+  status: "Journal article"
+  selected: true
+  paper: "https://www.sciencedirect.com/science/article/pii/S1566253525007249"
+  github: "https://github.com/Xiaofeng-Han-Res/MF-RV"
+  project: "TODO"
+
+- title: "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition"
+  authors_html: "Changwei Wang, <strong>Shunpeng Chen</strong>, Yukun Song, Rongtao Xu, Zherui Zhang, Jiguang Zhang, Haoran Yang, Yu Zhang, Kexue Fu, Shide Du, Zhiwei Xu, Longxiang Gao, Li Guo, Shibiao Xu"
+  venue: "AAAI"
+  year: 2025
+  ccf: "CCF-A"
+  status: "Conference paper"
+  selected: true
+  paper: "https://arxiv.org/abs/2504.09881"
+  github: "https://github.com/chenshunpeng/FoL"
+  project: "TODO"
+
+- title: "Local feature matching using deep learning: A survey"
+  authors_html: "Shibiao Xu, <strong>Shunpeng Chen</strong>, Rongtao Xu, Changwei Wang, Peng Lu, Li Guo"
+  venue: "Information Fusion"
+  year: 2024
+  status: "Journal article"
+  selected: false
+  paper: "https://www.sciencedirect.com/science/article/pii/S1566253524001222"
+  github: "https://github.com/vignywang/Awesome-Local-Feature-Matching"
+  project: "TODO"

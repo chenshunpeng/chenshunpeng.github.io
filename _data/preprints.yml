@@ -1,0 +1,9 @@
+- title: "Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition"
+  authors_html: "<strong>Shunpeng Chen</strong>, Yukun Song, Changwei Wang, Rongtao Xu, Kexue Fu, Longxiang Gao, Li Guo, Ruisheng Wang, Shibiao Xu"
+  venue: "arXiv"
+  year: 2026
+  status: "Preprint"
+  selected: true
+  paper: "https://arxiv.org/abs/2604.22390"
+  github: "https://github.com/chenshunpeng/FoL"
+  project: "TODO"

@@ -1,0 +1,21 @@
+title: Shunpeng Chen
+description: Academic homepage of Shunpeng Chen, Ph.D. Student at BUPT.
+url: "https://chenshunpeng.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Shanghai
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+sass:
+  style: compressed
