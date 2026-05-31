@@ -29,6 +29,14 @@ title: Home
       </p>
 
       <div class="sidebar-links" aria-label="Profile links">
+        {% if profile.location and profile.location != "TODO" %}
+          <span class="profile-link profile-location">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="17" height="17" focusable="false">
+              <path d="M12 2.5A7.5 7.5 0 0 0 4.5 10c0 5.05 6.32 10.84 6.59 11.08a1.35 1.35 0 0 0 1.82 0C13.18 20.84 19.5 15.05 19.5 10A7.5 7.5 0 0 0 12 2.5Zm0 16.45C10.1 17.1 6.5 13.05 6.5 10a5.5 5.5 0 0 1 11 0c0 3.05-3.6 7.1-5.5 8.95ZM12 6.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4Zm0 4.4a1.2 1.2 0 1 1 0-2.4 1.2 1.2 0 0 1 0 2.4Z"/>
+            </svg>
+            <span>{{ profile.location }}</span>
+          </span>
+        {% endif %}
         {% if profile.email and profile.email != "TODO" %}
           {% assign email_href = "mailto:" | append: profile.email %}
           {% include profile-link.html href=email_href label="Email" icon="email" %}

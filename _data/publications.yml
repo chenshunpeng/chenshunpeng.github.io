@@ -13,6 +13,7 @@
   authors_html: "Xiaofeng Han, <strong>Shunpeng Chen</strong>, Zenghuang Fu, Zhe Feng, Lue Fan, Dong An, Changwei Wang, Li Guo, Weiliang Meng, Xiaopeng Zhang, Rongtao Xu, Shibiao Xu"
   venue: "Information Fusion"
   year: 2026
+  impact_factor:
   status: "Journal article"
   selected: true
   paper: "https://www.sciencedirect.com/science/article/pii/S1566253525007249"
@@ -34,6 +35,7 @@
   authors_html: "Shibiao Xu, <strong>Shunpeng Chen</strong>, Rongtao Xu, Changwei Wang, Peng Lu, Li Guo"
   venue: "Information Fusion"
   year: 2024
+  impact_factor:
   status: "Journal article"
   selected: false
   paper: "https://www.sciencedirect.com/science/article/pii/S1566253524001222"

@@ -127,9 +127,14 @@ h3 {
 }
 
 .profile-link svg,
+.profile-location svg,
 .inline-icon-link svg {
   flex: 0 0 auto;
   fill: currentColor;
+}
+
+.profile-location {
+  color: var(--muted);
 }
 
 .sidebar h2 {
@@ -235,6 +240,10 @@ h3 {
   font-weight: 650;
 }
 
+.impact-factor {
+  color: var(--text);
+}
+
 .meta-separator {
   color: #a0a0a0;
 }
@@ -257,6 +266,10 @@ h3 {
   display: inline-flex;
   align-items: center;
   gap: 0.22rem;
+}
+
+.github-stars {
+  color: var(--muted);
 }
 
 .site-footer {
