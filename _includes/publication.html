@@ -18,8 +18,12 @@
     {% if include.publication.project and include.publication.project != "TODO" %}
       {% unless include.publication.project contains "github.com" %}
         <span class="meta-separator">|</span>
-        <a class="inline-link" href="{{ include.publication.project }}" target="_blank" rel="noopener">Project</a>
+        <a class="inline-link project-meta-link" href="{{ include.publication.project }}" target="_blank" rel="noopener">Project</a>
       {% endunless %}
+    {% endif %}
+    {% if include.publication.poster and include.publication.poster != "TODO" %}
+      <span class="meta-separator">|</span>
+      <a class="inline-link poster-meta-link" href="{{ include.publication.poster }}" target="_blank" rel="noopener">{{ include.publication.poster_label | default: "Poster" }}</a>
     {% endif %}
     {% if include.publication.github and include.publication.github != "TODO" %}
       {% assign github_repo = include.publication.github | replace: "https://github.com/", "" | replace: "http://github.com/", "" %}

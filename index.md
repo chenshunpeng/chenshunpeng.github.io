@@ -53,6 +53,9 @@ title: Home
         {% if profile.links.orcid and profile.links.orcid != "TODO" %}
           {% include profile-link.html href=profile.links.orcid label="ORCID" icon="orcid" %}
         {% endif %}
+        {% if profile.links.openreview and profile.links.openreview != "TODO" %}
+          {% include profile-link.html href=profile.links.openreview label="OpenReview" icon="openreview" %}
+        {% endif %}
       </div>
 
       <h2>Research Interests</h2>

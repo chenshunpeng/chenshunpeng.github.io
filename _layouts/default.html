@@ -9,7 +9,7 @@
     {% seo title=false %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   </head>
-  <body>
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     {% include header.html %}
     {{ content }}
     {% include footer.html %}

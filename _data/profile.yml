@@ -16,8 +16,8 @@ summary: >-
   I am a Ph.D. student at Beijing University of Posts and Telecommunications (BUPT).
   My research focuses on Visual Place Recognition, Visual Localization,
   Multimodal Learning, and Embodied AI. I am particularly interested in building
-  robust and efficient perception systems that enable intelligent agents to
-  understand and navigate complex real-world environments.
+  robust perception systems that enable intelligent agents to
+  understand real-world environments.
 
 research_interests:
   - Visual Place Recognition
@@ -31,3 +31,4 @@ links:
   google_scholar: "https://scholar.google.com/citations?user=azDgUMUAAAAJ&hl=zh-CN"
   dblp: "https://dblp.org/pid/367/5431.html"
   orcid: "https://orcid.org/0009-0004-1675-957X"
+  openreview: "https://openreview.net/profile?id=%7EShunpeng_Chen1"

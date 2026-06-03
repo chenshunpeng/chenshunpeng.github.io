@@ -7,7 +7,9 @@
   selected: true
   paper: "https://openreview.net/forum?id=DCpbEXqPvS"
   github: "https://github.com/chenshunpeng/SAGE"
-  project: "https://iclr.cc/virtual/2026/poster/10010801"
+  project: "/projects/SAGE/"
+  poster: "https://iclr.cc/virtual/2026/poster/10010801"
+  poster_label: "ICLR Poster"
 
 - title: "Multimodal fusion and vision-language models: A survey for robot vision"
   authors_html: "Xiaofeng Han, <strong>Shunpeng Chen</strong>, Zenghuang Fu, Zhe Feng, Lue Fan, Dong An, Changwei Wang, Li Guo, Weiliang Meng, Xiaopeng Zhang, Rongtao Xu, Shibiao Xu"
@@ -29,7 +31,7 @@
   selected: true
   paper: "https://arxiv.org/abs/2504.09881"
   github: "https://github.com/chenshunpeng/FoL"
-  project: "TODO"
+  project: "/projects/FoL/"
 
 - title: "Local feature matching using deep learning: A survey"
   authors_html: "Shibiao Xu, <strong>Shunpeng Chen</strong>, Rongtao Xu, Changwei Wang, Peng Lu, Li Guo"
