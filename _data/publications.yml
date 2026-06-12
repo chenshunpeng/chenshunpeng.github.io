@@ -12,7 +12,7 @@
   poster_label: "ICLR Poster"
 
 - title: "Multimodal fusion and vision-language models: A survey for robot vision"
-  authors_html: "Xiaofeng Han, <strong>Shunpeng Chen</strong>, Zenghuang Fu, Zhe Feng, Lue Fan, Dong An, Changwei Wang, Li Guo, Weiliang Meng, Xiaopeng Zhang, Rongtao Xu, Shibiao Xu"
+  authors_html: "Xiaofeng Han<sup>*</sup>, <strong>Shunpeng Chen</strong><sup>*</sup>, Zenghuang Fu, Zhe Feng, Lue Fan, Dong An, Changwei Wang, Li Guo, Weiliang Meng, Xiaopeng Zhang, Rongtao Xu, Shibiao Xu"
   venue: "Information Fusion"
   year: 2026
   impact_factor:
@@ -20,6 +20,18 @@
   selected: true
   paper: "https://www.sciencedirect.com/science/article/pii/S1566253525007249"
   github: "https://github.com/Xiaofeng-Han-Res/MF-RV"
+  project: "TODO"
+
+- title: "WM-DETR: Dual-Branch Wavelet-Mamba and Sparse Attention for Robust Underwater Object Detection"
+  title_class: "compact-title"
+  authors_html: "Xiaofeng Han<sup>*</sup>, <strong>Shunpeng Chen</strong><sup>*</sup>, Zenghuang Fu, Longzhao Huang, Shengpeng Xu, Jinming Yang, Yixian Kong, Changwei Wang, Weiliang Meng, Xiaopeng Zhang"
+  venue: "Expert Systems with Applications"
+  year: 2026
+  impact_factor:
+  status: "Journal article"
+  selected: true
+  paper: "https://www.sciencedirect.com/science/article/abs/pii/S0957417426020580"
+  github: "https://github.com/Xiaofeng-Han-Res/WM-DETR"
   project: "TODO"
 
 - title: "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition"

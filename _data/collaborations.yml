@@ -1,5 +1,5 @@
 - title: "DialogueVPR: Towards Conversational Visual Place Recognition"
-  authors_html: "Yukun Song, Changwei Wang, Xingtian Pei, Shibiao Xu, Wenhao Xu, <strong>Shunpeng Chen</strong>, Yu Zhang, Ke Zhang, Rongtao Xu, Xuxiang Feng, Pengyang Wang"
+  authors_html: "Yukun Song<sup>*</sup>, Changwei Wang<sup>*</sup>, Xingtian Pei<sup>*</sup>, Shibiao Xu, Wenhao Xu, <strong>Shunpeng Chen</strong>, Yu Zhang, Ke Zhang, Rongtao Xu, Xuxiang Feng, Pengyang Wang"
   venue: "CVPR"
   year: 2026
   ccf: "CCF-A"
@@ -7,7 +7,8 @@
   github: "https://github.com/Graysonggg/DlgPR"
 
 - title: "Visual Para-Thinker: Divide-and-Conquer Reasoning for Visual Comprehension"
-  authors_html: "Haoran Xu, Hongyu Wang, Jiaze Li, <strong>Shunpeng Chen</strong>, Zizhao Tong, Jianzhong Ju, Zhenbo Luo, Jian Luan"
+  authors_class: "compact-authors"
+  authors_html: "Haoran Xu<sup>*</sup>, Hongyu Wang<sup>*</sup>, Jiaze Li, <strong>Shunpeng Chen</strong>, Zizhao Tong, Jianzhong Ju, Zhenbo Luo, Jian Luan"
   venue: "ICML"
   year: 2026
   ccf: "CCF-A"

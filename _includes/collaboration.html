@@ -6,7 +6,7 @@
       {{ include.publication.title }}
     {% endif %}
   </h3>
-  <p class="collaboration-authors">{{ include.publication.authors_html }}</p>
+  <p class="collaboration-authors{% if include.publication.authors_class %} {{ include.publication.authors_class }}{% endif %}">{{ include.publication.authors_html }}</p>
   <p class="publication-meta collaboration-meta">
     <span class="venue-text">{{ include.publication.venue }} {{ include.publication.year }}</span>
     {% if include.publication.ccf and include.publication.ccf != "TODO" %}

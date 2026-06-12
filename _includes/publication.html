@@ -1,12 +1,12 @@
 <article class="publication{% if include.publication.selected %} publication-selected{% endif %}">
   <h3>
     {% if include.publication.paper and include.publication.paper != "TODO" %}
-      <a href="{{ include.publication.paper }}" target="_blank" rel="noopener">{{ include.publication.title }}</a>
+      <a class="publication-title{% if include.publication.title_class %} {{ include.publication.title_class }}{% endif %}" href="{{ include.publication.paper }}" target="_blank" rel="noopener">{{ include.publication.title }}</a>
     {% else %}
-      {{ include.publication.title }}
+      <span class="publication-title{% if include.publication.title_class %} {{ include.publication.title_class }}{% endif %}">{{ include.publication.title }}</span>
     {% endif %}
   </h3>
-  <p class="publication-authors">{{ include.publication.authors_html }}</p>
+  <p class="publication-authors{% if include.publication.authors_class %} {{ include.publication.authors_class }}{% endif %}">{{ include.publication.authors_html }}</p>
   <p class="publication-meta">
     <span class="venue-text">{{ include.publication.venue }} {{ include.publication.year }}</span>
     {% if include.publication.impact_factor %}
