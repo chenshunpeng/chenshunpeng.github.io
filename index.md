@@ -20,7 +20,8 @@ title: Home
           <a href="{{ school.url }}" target="_blank" rel="noopener">{{ school.name }}</a>
         {% else %}
           <span>{{ school.name }}</span>
-        {% endif %},
+        {% endif %}
+        <br>
         {% if university.url and university.url != "TODO" %}
           <a href="{{ university.url }}" target="_blank" rel="noopener">{{ university.short_link_label | default: university.name }}</a>
         {% else %}
@@ -102,7 +103,7 @@ title: Home
     </section>
 
     <section class="section" id="collaborations">
-      <h2>Other Publications</h2>
+      <h2>Collaborative Publications</h2>
       {% for year_group in collaborations_by_year %}
         <div class="year-group collaboration-year-group">
           <h3>{{ year_group.name }}</h3>
