@@ -1,3 +1,15 @@
+- title: "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition"
+  authors_html: "<strong>Shunpeng Chen</strong><sup>*</sup>, Jingyi Zhang<sup>*</sup>, Changwei Wang, Shengpeng Xu, Yukun Song, Xingtian Pei, Jinzhou Lin, Li Guo, Shibiao Xu"
+  venue: "arXiv"
+  year: 2026
+  status: "Preprint"
+  selected: true
+  paper: "https://arxiv.org/abs/2609.04369"
+  github: "https://github.com/chenshunpeng/AdaptVPR"
+  huggingface: "https://huggingface.co/datasets/shunpeng/AdaptCities"
+  huggingface_label: "HF Datasets"
+  project: "TODO"
+
 - title: "Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition"
   authors_html: "<strong>Shunpeng Chen</strong>, Yukun Song, Changwei Wang, Rongtao Xu, Kexue Fu, Longxiang Gao, Li Guo, Ruisheng Wang, Shibiao Xu"
   venue: "arXiv"
@@ -6,4 +18,6 @@
   selected: true
   paper: "https://arxiv.org/abs/2604.22390"
   github: "https://github.com/chenshunpeng/FoL"
+  huggingface: "https://huggingface.co/spaces/shunpeng/fol-visual-place-recognition"
+  huggingface_label: "HF Spaces"
   project: "TODO"

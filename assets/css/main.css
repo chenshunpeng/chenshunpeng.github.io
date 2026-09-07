@@ -371,6 +371,32 @@ h3 {
   text-decoration: none;
 }
 
+.huggingface-meta-link {
+  padding: 0.04rem 0.28rem;
+  color: #76520b;
+  background: #fff9e8;
+  border: 1px solid #ead18a;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 650;
+  line-height: 1.3;
+  vertical-align: baseline;
+  transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, color 150ms ease;
+}
+
+.huggingface-meta-link:hover {
+  color: #624407;
+  background: #fff3c9;
+  border-color: #d8b85d;
+  box-shadow: 0 2px 8px rgba(118, 82, 11, 0.1);
+  text-decoration: none;
+}
+
+.huggingface-icon {
+  font-size: 0.88rem;
+  line-height: 1;
+}
+
 .github-stars {
   color: var(--muted);
 }

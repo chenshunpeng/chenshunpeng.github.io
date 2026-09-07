@@ -7,6 +7,8 @@
   selected: true
   paper: "https://openreview.net/forum?id=DCpbEXqPvS"
   github: "https://github.com/chenshunpeng/SAGE"
+  huggingface: "https://huggingface.co/spaces/shunpeng/sage-visual-place-recognition"
+  huggingface_label: "HF Spaces"
   project: "/projects/SAGE/"
   poster: "https://iclr.cc/virtual/2026/poster/10010801"
   poster_label: "ICLR Poster"
@@ -43,6 +45,8 @@
   selected: true
   paper: "https://arxiv.org/abs/2504.09881"
   github: "https://github.com/chenshunpeng/FoL"
+  huggingface: "https://huggingface.co/spaces/shunpeng/fol-visual-place-recognition"
+  huggingface_label: "HF Spaces"
   project: "/projects/FoL/"
 
 - title: "Local feature matching using deep learning: A survey"

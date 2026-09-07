@@ -25,6 +25,13 @@
       <span class="meta-separator">|</span>
       <a class="inline-link poster-meta-link" href="{{ include.publication.poster }}" target="_blank" rel="noopener">{{ include.publication.poster_label | default: "Poster" }}</a>
     {% endif %}
+    {% if include.publication.huggingface and include.publication.huggingface != "TODO" %}
+      <span class="meta-separator">|</span>
+      <a class="inline-link huggingface-meta-link" href="{{ include.publication.huggingface }}" target="_blank" rel="noopener noreferrer" aria-label="{{ include.publication.huggingface_label | default: 'Hugging Face' }} for {{ include.publication.title }}">
+        <span class="huggingface-icon" aria-hidden="true">&#129303;</span>
+        <span>{{ include.publication.huggingface_label | default: "Hugging Face" }}</span>
+      </a>
+    {% endif %}
     {% if include.publication.github and include.publication.github != "TODO" %}
       {% assign github_repo = include.publication.github | replace: "https://github.com/", "" | replace: "http://github.com/", "" %}
       {% assign github_repo_parts = github_repo | split: "/" %}
