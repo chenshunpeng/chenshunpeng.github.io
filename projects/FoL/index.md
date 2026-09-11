@@ -25,7 +25,7 @@ description: "Focus on Local: Finding Reliable Discriminative Regions for Visual
   </header>
 
   <section class="project-hero">
-    <p class="project-kicker">AAAI 2025 Conference Paper</p>
+    <p class="project-kicker">AAAI 2025 · Conference Paper</p>
     <h1><span class="project-title-emphasis">Focus on Local</span>: Finding Reliable Discriminative Regions for Visual Place Recognition</h1>
     <p class="project-subtitle">FoL is a two-stage Visual Place Recognition (VPR) approach that improves image retrieval and re-ranking by focusing on reliable, discriminative local regions.</p>
 
@@ -34,25 +34,28 @@ description: "Focus on Local: Finding Reliable Discriminative Regions for Visual
       <a href="https://scholar.google.com/citations?user=azDgUMUAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Shunpeng Chen</a>,
       <a href="https://scholar.google.com/citations?user=0BusGXMAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Yukun Song</a>,
       <a href="https://scholar.google.com/citations?user=_IUq7ooAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Rongtao Xu</a>,
-      Zherui Zhang,
+      <a href="https://openreview.net/profile?id=~Zherui_Zhang1" target="_blank" rel="noopener">Zherui Zhang</a>,
       <br class="project-author-break">
-      Jiguang Zhang,
-      Haoran Yang,
-      Yu Zhang,
+      <a href="https://openreview.net/profile?id=~jiguang_zhang1" target="_blank" rel="noopener">Jiguang Zhang</a>,
+      <a href="https://openreview.net/profile?id=~Haoran_Yang8" target="_blank" rel="noopener">Haoran Yang</a>,
+      <a href="https://openreview.net/profile?id=~Yu_Zhang60" target="_blank" rel="noopener">Yu Zhang</a>,
       <a href="https://scholar.google.com/citations?user=wRs-_DwAAAAJ&hl=en" target="_blank" rel="noopener">Kexue Fu</a>,
       <a href="https://scholar.google.com.hk/citations?user=H9ru_e0AAAAJ&hl=zh-CN" target="_blank" rel="noopener">Shide Du</a>,
       <a href="https://scholar.google.co.uk/citations?user=kZoG7ssAAAAJ&hl" target="_blank" rel="noopener">Zhiwei Xu</a>,
       <a href="https://scholar.google.com/citations?user=dYG_FfMAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Longxiang Gao</a>,
-      Li Guo,
+      <a href="https://openreview.net/profile?id=~Li_Guo5" target="_blank" rel="noopener">Li Guo</a>,
       <a href="https://scholar.google.com/citations?hl=zh-CN&user=htmrWvUAAAAJ" target="_blank" rel="noopener">Shibiao Xu</a>
     </p>
 
     <div class="project-actions" aria-label="Project links">
-      {% include project-link.html kind="paper" label="Paper" href="https://arxiv.org/abs/2504.09881" %}
+      {% include project-link.html kind="paper" label="Paper" href="https://ojs.aaai.org/index.php/AAAI/article/view/32811/34966" %}
       {% include project-link.html kind="conference" label="AAAI Page" href="https://ojs.aaai.org/index.php/AAAI/article/view/32811" %}
       {% include project-link.html kind="code" label="Code" href="https://github.com/chenshunpeng/FoL" %}
       {% include project-link.html kind="models" label="Models" href="https://huggingface.co/shunpeng/FoL" %}
+      {% include project-link.html kind="live-demo" label="Live Demo" href="https://huggingface.co/spaces/shunpeng/fol-visual-place-recognition" %}
       {% include project-link.html kind="demo" label="Colab Demo" href="https://colab.research.google.com/drive/1CxchBdFYxzwtCf5UOUgjMt8FxKMo2A-5?usp=sharing" %}
+      {% include project-link.html kind="arxiv" label="arXiv" href="https://arxiv.org/abs/2504.09881" %}
+      {% include project-link.html kind="extension" label="FoL++ / Extension" href="https://arxiv.org/abs/2604.22390" %}
     </div>
   </section>
 
@@ -62,6 +65,19 @@ description: "Focus on Local: Finding Reliable Discriminative Regions for Visual
     </a>
     <figcaption>Overview of FoL. The method discovers reliable discriminative local regions and uses them for global retrieval and local re-ranking.</figcaption>
   </figure>
+
+  <section class="project-demo-preview project-demo-preview-featured" aria-labelledby="fol-demo-title">
+    <div class="project-demo-copy">
+      <div>
+        <h2 id="fol-demo-title">Try it Online</h2>
+        <p>Try FoL interactively on Hugging Face Spaces.</p>
+      </div>
+      {% include project-link.html kind="live-demo" label="Launch Live Demo" href="https://huggingface.co/spaces/shunpeng/fol-visual-place-recognition" %}
+    </div>
+    <a class="project-demo-image" href="https://huggingface.co/spaces/shunpeng/fol-visual-place-recognition" target="_blank" rel="noopener noreferrer" aria-label="Launch the FoL demo on Hugging Face Spaces">
+      <img src="{{ '/assets/projects/fol/HF_Spaces_FoL.png' | relative_url }}" alt="FoL Hugging Face Spaces interface showing reliable regions, local matches, and geometric verification results." loading="lazy">
+    </a>
+  </section>
 
   <section class="project-section" id="overview">
     <h2>Overview</h2>

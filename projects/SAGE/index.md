@@ -24,7 +24,7 @@ description: "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visu
   </header>
 
   <section class="project-hero">
-    <p class="project-kicker">ICLR 2026 Conference Paper</p>
+    <p class="project-kicker">ICLR 2026 · Conference Paper</p>
     <h1><span class="project-title-emphasis">SAGE</span>: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition</h1>
     <p class="project-subtitle">SAGE learns efficient Visual Place Recognition (VPR) through dynamic geo-visual graph exploration, hard neighborhood mining, and lightweight parameter-efficient adaptation on a frozen DINOv2 backbone.</p>
 
@@ -32,21 +32,24 @@ description: "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visu
       <a href="https://scholar.google.com/citations?user=azDgUMUAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Shunpeng Chen</a>,
       <a href="https://scholar.google.com/citations?hl=zh-CN&user=DnJKQI8AAAAJ" target="_blank" rel="noopener">Changwei Wang</a>,
       <a href="https://scholar.google.com/citations?user=_IUq7ooAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Rongtao Xu</a>,
-      Xingtian Pei,
+      <a href="https://openreview.net/profile?id=%7EXingtian_Pei1" target="_blank" rel="noopener">Xingtian Pei</a>,
       <a href="https://scholar.google.com/citations?user=0BusGXMAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Yukun Song</a>,
       <br class="project-author-break">
-      Jinzhou Lin,
+      <a href="https://openreview.net/profile?id=~Jinzhou_Lin1" target="_blank" rel="noopener">Jinzhou Lin</a>,
       <a href="https://scholar.google.com/citations?user=2eo4NBsAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Wenhao Xu</a>,
       <a href="https://scholar.google.com/citations?user=rRrAfF4AAAAJ" target="_blank" rel="noopener">Jingyi Zhang</a>,
-      Li Guo,
+      <a href="https://openreview.net/profile?id=~Li_Guo5" target="_blank" rel="noopener">Li Guo</a>,
       <a href="https://scholar.google.com/citations?hl=zh-CN&user=htmrWvUAAAAJ" target="_blank" rel="noopener">Shibiao Xu</a>
     </p>
 
     <div class="project-actions" aria-label="Project links">
-      {% include project-link.html kind="paper" label="Paper" href="https://openreview.net/forum?id=DCpbEXqPvS" %}
+      {% include project-link.html kind="paper" label="Paper" href="https://openreview.net/pdf?id=DCpbEXqPvS" %}
       {% include project-link.html kind="poster" label="ICLR Poster" href="https://iclr.cc/virtual/2026/poster/10010801" %}
       {% include project-link.html kind="code" label="Code" href="https://github.com/chenshunpeng/SAGE" %}
-      {% include project-link.html kind="models" label="Models" href="https://drive.google.com/drive/folders/1-nQi9fhJPuiqHkcrGqBoIwiemnQ2L1-m?usp=sharing" %}
+      {% include project-link.html kind="models" label="Models" href="https://huggingface.co/shunpeng/SAGE" %}
+      {% include project-link.html kind="live-demo" label="Live Demo" href="https://huggingface.co/spaces/shunpeng/sage-visual-place-recognition" %}
+      {% include project-link.html kind="openreview" label="OpenReview" href="https://openreview.net/forum?id=DCpbEXqPvS" %}
+      {% include project-link.html kind="arxiv" label="arXiv" href="https://arxiv.org/abs/2509.25723" %}
     </div>
   </section>
 
@@ -56,6 +59,19 @@ description: "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visu
     </a>
     <figcaption>Overview of SAGE. The framework updates the online geo-visual graph during training and combines hard neighborhood mining with Soft Probing.</figcaption>
   </figure>
+
+  <section class="project-demo-preview project-demo-preview-featured" aria-labelledby="sage-demo-title">
+    <div class="project-demo-copy">
+      <div>
+        <h2 id="sage-demo-title">Try it Online</h2>
+        <p>Try SAGE interactively on Hugging Face Spaces.</p>
+      </div>
+      {% include project-link.html kind="live-demo" label="Launch Live Demo" href="https://huggingface.co/spaces/shunpeng/sage-visual-place-recognition" %}
+    </div>
+    <a class="project-demo-image" href="https://huggingface.co/spaces/shunpeng/sage-visual-place-recognition" target="_blank" rel="noopener noreferrer" aria-label="Launch the SAGE demo on Hugging Face Spaces">
+      <img src="{{ '/assets/projects/sage/HF_Spaces_SAGE.png' | relative_url }}" alt="SAGE Hugging Face Spaces interface showing query and gallery images with retrieved place matches." loading="lazy">
+    </a>
+  </section>
 
   <section class="project-section" id="overview">
     <h2>Overview</h2>
