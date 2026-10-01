@@ -1,10 +1,9 @@
-- title: "DialogueVPR: Towards Conversational Visual Place Recognition"
-  authors_html: "Yukun Song<sup>*</sup>, Changwei Wang<sup>*</sup>, Xingtian Pei<sup>*</sup>, Shibiao Xu, Wenhao Xu, <strong>Shunpeng Chen</strong>, Yu Zhang, Ke Zhang, Rongtao Xu, Xuxiang Feng, Pengyang Wang"
-  venue: "CVPR"
+- title: "Fourier Meets Mamba: Frequency-Aware Reconstruction from Event Streams"
+  authors_html: "Shengpeng Xu, Yunbo Jia, <strong>Shunpeng Chen</strong>, Changwei Wang, Li Guo, Shibiao Xu"
+  venue: "TCSVT"
   year: 2026
-  ccf: "CCF-A"
-  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Song_DialogueVPR_Towards_Conversational_Visual_Place_Recognition_CVPR_2026_paper.html"
-  github: "https://github.com/Graysonggg/DlgPR"
+  paper: "https://ieeexplore.ieee.org/document/11713031"
+  github: "https://github.com/Xusssssss/Freq-E2VID"
 
 - title: "Visual Para-Thinker: Divide-and-Conquer Reasoning for Visual Comprehension"
   authors_class: "compact-authors"
@@ -14,3 +13,11 @@
   ccf: "CCF-A"
   paper: "https://openreview.net/forum?id=yUOnI5IAuT"
   github: "https://github.com/xuhaoran1/Visual-Para-Thinker"
+
+- title: "DialogueVPR: Towards Conversational Visual Place Recognition"
+  authors_html: "Yukun Song<sup>*</sup>, Changwei Wang<sup>*</sup>, Xingtian Pei<sup>*</sup>, Shibiao Xu, Wenhao Xu, <strong>Shunpeng Chen</strong>, Yu Zhang, Ke Zhang, Rongtao Xu, Xuxiang Feng, Pengyang Wang"
+  venue: "CVPR"
+  year: 2026
+  ccf: "CCF-A"
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Song_DialogueVPR_Towards_Conversational_Visual_Place_Recognition_CVPR_2026_paper.html"
+  github: "https://github.com/Graysonggg/DlgPR"
